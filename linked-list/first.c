@@ -12,7 +12,8 @@ struct node
     typedef struct node NodeType;
     NodeType  *first, *last;
 
-    first = last = NULL;
+    first = NULL ;
+    last= NULL;
     void insert_atfirst(int);
     void display();
 
