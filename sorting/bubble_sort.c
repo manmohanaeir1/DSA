@@ -38,7 +38,7 @@ int main()
 {
     int arr[] = { 64, 34, 25, 12, 22, 11, 90};
     int n= sizeof(arr)/sizeof(arr[1]);
-    bubble_sort(arr, n);
+    bubble_sort(arr, n); // call function 
     printf("sorted array:");
     print_array(arr, n);
     return 0;
